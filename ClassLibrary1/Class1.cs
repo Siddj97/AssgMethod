@@ -25,7 +25,7 @@ namespace ClassLibrary1
 
             //Act
 
-            string actualResult = TriangleSolver.Analyze(s1, s2, s3);
+             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
 
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
